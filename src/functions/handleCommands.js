@@ -20,7 +20,7 @@ module.exports = async (client) => {
 
         const rest = new REST({
             version: '10'
-        }).setToken(process.env.DISCORD_TOKEN || 'MTM0Mzk1ODg2OTkxMDQ5MTE0Nw.Gn504W.LqvZlZ0Vr-tixUeC3W1p_jxgmZM4IH9gtP8HQI');
+        }).setToken(process.env.DISCORD_TOKEN || 'MTM0Mzk1ODg2OTkxMDQ5MTE0Nw.GZthzO.DQ28fJBwN8mMBtNAaUcNIVczdsMveVYJiKpxLQ');
 
         (async () => {
             try{
