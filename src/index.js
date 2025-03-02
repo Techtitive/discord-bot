@@ -14,7 +14,7 @@ const commandFolders = fs.readdirSync('./Discord/src/commands');
         require(`./functions/${file}`)(client);
     }
     client.handleCommands(commandFolders, "./Discord/src/commands");
-    client.login(process.env.DISCORD_TOKEN || 'MTM0Mzk1ODg2OTkxMDQ5MTE0Nw.Gn504W.LqvZlZ0Vr-tixUeC3W1p_jxgmZM4IH9gtP8HQI');
+    client.login(process.env.DISCORD_TOKEN || 'MTM0Mzk1ODg2OTkxMDQ5MTE0Nw.GZthzO.DQ28fJBwN8mMBtNAaUcNIVczdsMveVYJiKpxLQ');
 })();
 
 client.on('interactionCreate', async (interaction) => {
